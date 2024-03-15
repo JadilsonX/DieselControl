@@ -1,0 +1,39 @@
+
+import React, { useState, useEffect, useRef } from "react"
+import { View, PanResponder } from "react-native"
+import { useNavigation } from '@react-navigation/native';
+
+const Inactivity = props => {
+  const timerId = useRef(false)
+  const [timeForInactivityInSecond, setTimeForInactivityInSecond] = useState(
+    3600
+  )
+  const navigation = useNavigation();
+  useEffect(() => {
+    resetInactivityTimeout()
+  }, [])
+
+  const panResponder = React.useRef(
+    PanResponder.create({
+      onStartShouldSetPanResponderCapture: () => {
+        // console.log('user starts touch');
+        resetInactivityTimeout()
+      },
+    })
+  ).current
+
+  const resetInactivityTimeout = () => {
+    clearTimeout(timerId.current)
+    timerId.current = setTimeout(() => {
+      navigation.navigate('Login')
+    }, timeForInactivityInSecond * 1000)
+  }
+
+  return (
+    <View style={{ flex: 1 }} {...panResponder.panHandlers}>
+      {/* <YourApp {...props} /> */}
+    </View>
+  )
+}
+
+export default Inactivity

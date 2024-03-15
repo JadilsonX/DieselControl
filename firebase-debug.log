@@ -1,0 +1,26 @@
+[debug] [2023-04-04T17:55:59.729Z] ----------------------------------------------------------------------
+[debug] [2023-04-04T17:55:59.733Z] Command:       C:\Program Files\nodejs\node.exe c:\users\Jadilson\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init emulators
+[debug] [2023-04-04T17:55:59.734Z] CLI Version:   11.14.3
+[debug] [2023-04-04T17:55:59.734Z] Platform:      win32
+[debug] [2023-04-04T17:55:59.735Z] Node Version:  v16.17.1
+[debug] [2023-04-04T17:55:59.737Z] Time:          Tue Apr 04 2023 14:55:59 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-04-04T17:55:59.737Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-04T17:55:59.890Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-04T17:55:59.891Z] > authorizing via signed-in user (jadilsonprado7@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\react-native\DieselControl-master
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+

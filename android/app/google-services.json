@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "882181047990",
+    "firebase_url": "https://dielsecontrol-default-rtdb.firebaseio.com",
+    "project_id": "dielsecontrol",
+    "storage_bucket": "dielsecontrol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882181047990:android:a8a48757c81835264c4817",
+        "android_client_info": {
+          "package_name": "com.dieselcontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882181047990-4tnde98ec35oesi8clb2muhnkct784pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcjv8i0RsM4PnmJd3fqzFeRlk7AhYCE9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882181047990-4tnde98ec35oesi8clb2muhnkct784pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

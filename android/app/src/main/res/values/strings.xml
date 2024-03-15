@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DieselControl</string>    
+    <string moduleConfig="true" name="CodePushDeploymentKey"> KLgnJx-ABAJkX2XPiAzhJqv07MPhFrzzvhQ1e</string>
+</resources>
